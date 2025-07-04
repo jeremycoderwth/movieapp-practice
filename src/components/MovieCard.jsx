@@ -1,5 +1,5 @@
 import React from 'react'
-import StarImage from '/assets/star.svg'
+import StarImage from '//star.svg'
 
 const MovieCard = ({ movie: {title, vote_average, poster_path, release_date, original_language} }) => {
   return (
